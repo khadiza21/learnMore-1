@@ -10,7 +10,6 @@
 .container {
   width: 80%;
   margin: 0 auto;
-  border: 2px solid black;
 }
 
 h1 {
@@ -30,6 +29,11 @@ h3 {
 
 h4 {
   font-size: 25px;
+  margin: 10px 0;
+}
+
+h5 {
+  font-size: 20px;
   margin: 10px 0;
 }
 
@@ -246,6 +250,8 @@ p {
 #current-target .current-targetbox .current-target-item {
   border-radius: 5px;
   padding: 20px 15px;
+  width: 30%;
+  height: 350px;
 }
 
 #current-target .current-targetbox .current-target-item .current-target-img {
@@ -254,6 +260,7 @@ p {
 
 #current-target .current-targetbox .current-target-item .current-target-textbox {
   padding: 5px 10px;
+  overflow: hidden;
 }
 
 #current-target .current-targetbox .current-target-item .current-target-textbox a {
@@ -298,6 +305,7 @@ p {
   padding: 10px;
   padding-left: 20px;
   width: 30%;
+  ;
 }
 
 #next-target .next-targetbox .next-target-item .next-target-item-image img {
@@ -321,7 +329,8 @@ p {
 }
 
 #support .supportbox {
-  background: url(./assets/handshake.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: url(./assets/handshake.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-position: center center;
   border-radius: 10px;
   padding: 20px 0;
@@ -363,4 +372,29 @@ p {
   border: 0;
   background-color: whitesmoke;
   font-size: 16px;
+}
+
+/* footer part */
+#footer {
+  background-color: rgb(243, 239, 239);
+}
+
+#footer .footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+#footer .footer-box .footer-iconbox a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 0 10px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#footer .footer-box .footer-iconbox i {
+  font-size: 25px;
 }
