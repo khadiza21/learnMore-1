@@ -397,3 +397,10 @@ p {
   text-decoration: none;
   margin: 0 10px;
 }
+
+#footer .footer-box .footer-iconbox i {
+  padding: 10px;
+  background-color: #1da1f2;
+  border-radius: 50%;
+  color: whitesmoke;
+}
