@@ -296,19 +296,71 @@ p {
 
 #next-target .next-targetbox .next-target-item .next-target-item-image {
   padding: 10px;
+  padding-left: 20px;
   width: 30%;
 }
 
 #next-target .next-targetbox .next-target-item .next-target-item-image img {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
 }
 
 #next-target .next-targetbox .next-target-item .next-target-item-text {
   padding: 10px;
+  width: 70%;
 }
 
 #next-target .next-targetbox .next-target-item .next-target-item-text a {
   color: black;
   font-weight: bold;
+}
+
+/* support part */
+#support {
+  margin: 40px 0;
+}
+
+#support .supportbox {
+  background: url(./assets/handshake.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-position: center center;
+  border-radius: 10px;
+  padding: 20px 0;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#support .supportbox .support-textbox {
+  text-align: center;
+  margin: 15px auto;
+  padding: 15px 10px;
+  width: 80%;
+  color: whitesmoke;
+}
+
+#support .supportbox .support-input-box {
+  text-align: center;
+  width: 80%;
+  margin: 15px auto;
+}
+
+#support .supportbox input {
+  border: 0;
+  padding: 15px 25px;
+  width: 70%;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: gray;
+  font-size: 16px;
+}
+
+#support .supportbox button {
+  border: 0;
+  padding: 15px 25px;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  background-color: whitesmoke;
+  font-size: 16px;
 }
