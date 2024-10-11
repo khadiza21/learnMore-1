@@ -244,13 +244,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 #current-target .current-targetbox .current-target-item {
   border-radius: 5px;
   padding: 20px 15px;
-  width: 30%;
+  width: 33%;
   height: 350px;
 }
 
@@ -305,7 +305,6 @@ p {
   padding: 10px;
   padding-left: 20px;
   width: 30%;
-  ;
 }
 
 #next-target .next-targetbox .next-target-item .next-target-item-image img {
