@@ -386,14 +386,14 @@ p {
   gap: 20px;
 }
 
-#footer .footer-box .footer-iconbox a {
-  text-decoration: none;
-  color: whitesmoke;
-  margin: 0 10px;
-  padding: 15px;
-  border-radius: 50%;
+#footer .footer-box .footer-iconbox {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#footer .footer-box .footer-iconbox i {
-  font-size: 25px;
+#footer .footer-box .footer-iconbox a {
+  text-decoration: none;
+  margin: 0 10px;
 }
