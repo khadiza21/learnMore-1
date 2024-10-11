@@ -12,27 +12,33 @@
   margin: 0 auto;
   border: 2px solid black;
 }
+
 h1 {
   font-size: 30px;
   font-weight: bold;
 }
+
 h2 {
   font-size: 45px;
   margin: 10px 0;
 }
+
 h3 {
   font-size: 35px;
   margin: 10px 0;
 }
+
 h4 {
   font-size: 25px;
   margin: 10px 0;
 }
+
 p {
   font-size: 15px;
   margin: 10px 0;
   color: gray;
 }
+
 /* header part */
 
 /* nav Section */
@@ -92,6 +98,7 @@ p {
   padding: 10px;
   margin: 10px;
 }
+
 #hero .heroContent .herotext button {
   padding: 15px 25px;
   background-color: black;
@@ -210,7 +217,51 @@ p {
   width: 100%;
 }
 
-/* target part */
+/* current target part */
+#current-target {
+  margin: 40px 0;
+}
+
+#current-target .current-targetbox {
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+#current-target .current-targetbox .current-target-header {
+  text-align: center;
+  margin: 15px auto;
+  padding: 15px 10px;
+  width: 80%;
+}
+
+#current-target .current-targetbox .current-target-items {
+  margin: 10px 0;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#current-target .current-targetbox .current-target-item {
+  border-radius: 5px;
+  padding: 20px 15px;
+}
+
+#current-target .current-targetbox .current-target-item .current-target-img {
+  padding: 5px 10px;
+}
+
+#current-target .current-targetbox .current-target-item .current-target-textbox {
+  padding: 5px 10px;
+}
+
+#current-target .current-targetbox .current-target-item .current-target-textbox a {
+  color: black;
+  font-weight: bold;
+}
+
+/*next target part */
 #next-target {
   margin: 40px 0;
 }
@@ -226,10 +277,12 @@ p {
   padding: 15px 10px;
   width: 80%;
 }
+
 #next-target .next-targetbox .next-target-items {
   margin: 10px 0;
   padding: 10px 0;
 }
+
 #next-target .next-targetbox .next-target-item {
   border: 1px solid grey;
   border-radius: 5px;
@@ -240,17 +293,21 @@ p {
   justify-content: center;
   gap: 10px;
 }
+
 #next-target .next-targetbox .next-target-item .next-target-item-image {
   padding: 10px;
   width: 30%;
 }
+
 #next-target .next-targetbox .next-target-item .next-target-item-image img {
   width: 80%;
   height: 80%;
 }
+
 #next-target .next-targetbox .next-target-item .next-target-item-text {
   padding: 10px;
 }
+
 #next-target .next-targetbox .next-target-item .next-target-item-text a {
   color: black;
   font-weight: bold;
