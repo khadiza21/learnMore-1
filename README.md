@@ -10,3 +10,5 @@
 - Google font
 - Font Awesome
 
+
+![Alt text](./assets/learnmore-bk.png)
